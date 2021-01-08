@@ -8,7 +8,7 @@ int main()
   std::cout << "oh~ Dice!" << std::endl;
 
   // 游玩场次
-  size_t n = 100000000;
+  size_t n = 1000000;
 
   // 胜场记录
   std::vector<int> win_bureau_count;

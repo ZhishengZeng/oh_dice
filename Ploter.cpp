@@ -17,8 +17,8 @@ void Ploter::plotWithPlt(std::vector<int>& win_bureau_count, int n, int player_n
   std::ofstream plt_file;
   plt_file.open("win_bureau_count.plt");
   if (plt_file.is_open()) {
-    plt_file << "set terminal pdfcairo" << std::endl;
-    plt_file << "set output 'win_bureau_count.pdf'" << std::endl;
+    plt_file << "set terminal pngcairo" << std::endl;
+    plt_file << "set output 'win_bureau_count.png'" << std::endl;
     plt_file << "set key off" << std::endl;
     plt_file << "set style data lines" << std::endl;
     plt_file << "set title 'BureauNum " << n << " PlayerNum " << player_num << " ' " << std::endl;
