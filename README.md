@@ -1,11 +1,14 @@
 # Oh-Dice
 
-# quick start
+## quick start
+```
 git clone https://github.com/ZhishengZeng/Oh-Dice.git
 cd Oh-Dice
 mkdir build
 cd build && cmake .. && make -j 64
 ./main
+```
+
 
 ![image](https://github.com/ZhishengZeng/Oh-Dice/blob/main/results/p4.png)
 ![image](https://github.com/ZhishengZeng/Oh-Dice/blob/main/results/p8.png)
