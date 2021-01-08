@@ -5,7 +5,8 @@ SET(CMAKE_BUILD_TYPE "Release")
 SET(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -Wall -fopenmp")
 
 add_library(ohd
-Player.cpp)
+Player.cpp
+Ploter.cpp)
 
 link_libraries(ohd)
 include_directories(${PROJECT_SOURCE_DIR})
