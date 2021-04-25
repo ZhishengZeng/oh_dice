@@ -1,4 +1,4 @@
-# Oh-Dice
+# Oh_Dice
 
 ## quick start
 ```
